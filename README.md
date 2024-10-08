@@ -6,7 +6,7 @@ This repository contains Hass.io add-ons. All add-ons in this repository are tes
 ### Installation
 1. Navigate in your Home Assistant frontend to <kbd>Supervisor</kbd> -> <kbd>Add-on Store</kbd>.
 
-2. Click the 3-dots menu at upper right <kbd>...</kbd> > <kbd>Repositories</kbd> and add this repository's URL: [https://github.com/bohdan-s/hassio-repository](https://github.com/bohdan-s/hassio-repository)
+2. Click the 3-dots menu at upper right <kbd>...</kbd> > <kbd>Repositories</kbd> and add this repository's URL: [https://github.com/harrisjunaid/SG0x01-Add-On](https://github.com/harrisjunaid/SG0x01-Add-On)
 
 <img src="img/addrepo_config.png" width=300/>
 <img src="img/addrepo_addons.png" width=400/>
@@ -30,4 +30,4 @@ Enable `Auto update` on the desired add-on or browse Hassio Add-on Store Tab to 
 
 ### SunGather
 This addon support Sungrow Solar Inverter to publish data to MQTT Broker with AutoDiscovery. 
-This add on based on [SunGather](https://github.com/bohdan-s/SunGather)
+This add on based on [SunGather](https://github.com/harrisjunaid/SunGather)
