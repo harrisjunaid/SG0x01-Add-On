@@ -1,5 +1,5 @@
 inverter:
-  host: 192.168.1.100                       # [Required] IP Address of the Inverter or Dongle
+  host: 192.168.1.5                       # [Required] IP Address of the Inverter or Dongle
   # port: 502                               # [Optional] Default for modbus is 502, for http is 8082
   # timeout: 10                             # [Optional] Default is 10, how long to wait for a connection
   # retries: 3                              # [Optional] Default is 3, how many times to retry if connection fails

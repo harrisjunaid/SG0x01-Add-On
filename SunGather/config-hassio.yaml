@@ -17,11 +17,11 @@ exports:
     port: 8099
   - name: mqtt
     enabled: True
-    host: null
+    host: core-mosquitto
     port: 1883
-    username: null
-    password: null
-    # topic: "SunGather/{serial_number}"
+    username: ha-fsel
+    password: 12345@FPCDL
+    topic: "SunGather/{serial_number}"
     homeassistant: True
     ha_sensors:
       - name: "Daily Generation"
