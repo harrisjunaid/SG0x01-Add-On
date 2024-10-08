@@ -57,9 +57,9 @@ def main():
         elif opt == '--runonce':
             runonce = True
 
-    logging.info(f'Starting SunGather {__version__}')
-    logging.info(f'Need Help? https://github.com/bohdan-s/SunGather')
-    logging.info(f'NEW HomeAssistant Add-on: https://github.com/bohdan-s/hassio-repository')
+    #logging.info(f'Starting SunGather {__version__}')
+    #logging.info(f'Need Help? https://github.com/bohdan-s/SunGather')
+    #logging.info(f'NEW HomeAssistant Add-on: https://github.com/bohdan-s/hassio-repository')
 
     try:
         configfile = yaml.safe_load(open(configfilename, encoding="utf-8"))
